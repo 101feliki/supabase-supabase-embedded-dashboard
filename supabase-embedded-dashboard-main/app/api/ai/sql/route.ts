@@ -108,7 +108,7 @@ ${formattedSchema}`;
       );
     }
 
-    // 4. Return the generated SQL
+  
     return NextResponse.json({ sql });
   } catch (error: any) {
     console.error("AI SQL generation error:", error);
